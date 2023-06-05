@@ -1,0 +1,53 @@
+.editors-header {
+    background-color: rgb(32, 32, 32);
+    width: 100%;
+    display: flex;   
+}
+.min-max{
+    display: none;
+}
+.editor-console{
+    height: 40vh;
+    width: 33.33vw;
+    border-left: 1px solid black;
+}
+
+.one{
+    background-color: green;
+}
+.two{
+    background-color: peru;
+}
+.three{
+    background-color: palevioletred;
+}
+
+.isActive{
+    display: block;
+}
+.active-btn{
+    background-color: black !important;
+}
+
+.editors-container{
+    display: flex;
+    /* column-gap: 5px; */
+}
+
+@media(max-width: 580px){
+    .editors-container{
+        display: block;
+    }
+    .editor-console{
+        width: 100%;
+    }
+    .isActive{
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+}
+
+@media (min-width: 1024px){
+}

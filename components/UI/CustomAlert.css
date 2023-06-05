@@ -1,0 +1,31 @@
+.alert {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .success {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .error {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .message {
+    margin-right: 10px;
+  }
+  
+  .close {
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  

@@ -1,0 +1,50 @@
+.editor-header{
+    background-color: rgba(56, 56, 56);
+    flex-grow: 1;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-left: 1px solid black;
+}
+
+.editor-name-btn{
+    border: none;
+    background-color: rgba(56, 56, 56);
+    font-size: 1rem;
+    width: 60px;
+    padding: 0.5rem 1rem;
+    border-bottom: 0;
+    color: white;
+}
+.editor-name-btn:hover{
+    background-color: rgb(46, 46, 46);
+}
+.active-btn{
+    background-color: rgb(46, 46, 46) ;
+}
+
+.min-max{
+    border: none;
+    background-color: transparent;
+    cursor:pointer;
+}
+
+@media (max-width:580px){
+    .min-max{
+        display: none;
+    }
+    .editor-header{
+        flex-grow:0;
+        margin-left: 2px;
+        padding-right: 0;
+    }
+    .editor-header:first-child{
+        margin-left: 0px;
+    }
+}
+@media (min-width:580px){
+    .editor-name-btn{
+        background-color: rgb(46, 46, 46);
+    }
+}
